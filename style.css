@@ -1,0 +1,63 @@
+
+html {background-image: url(images/fon.JPG);
+    height: 380vh;
+    background-repeat: no-repeat;
+    background-size: cover;  
+  }
+
+h1 {
+    color: rgb(7, 7, 215);
+    margin: 0 auto;
+    }    
+h2 {
+    color:blue
+    }   
+h3 {
+    color: blue;
+}     
+p {
+    font-size:large;
+    font-weight: 300;
+    font-style: italic;
+    }    
+ul {
+   font-size: large;
+    }   
+    
+.container {
+    width: 100%;
+    max-width: auto;
+    font-size: 60px;
+    margin-block-start:2em;
+    margin-block-end:5em;
+    margin: 0 auto;
+    }   
+
+
+.block__image {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+}
+
+.header-line{display: flex; align-items: center;}
+
+.head {
+    width: 300px;
+    margin: 0 auto;
+}
+.title {
+    width: auto;
+    margin: 50 50 auto;
+}
+
+.base {
+    margin-left: 80px;
+}
+.basic {
+    margin: 10 auto;
+    margin-left: 365px;
+    color: rgb(9, 9, 101);
+}
